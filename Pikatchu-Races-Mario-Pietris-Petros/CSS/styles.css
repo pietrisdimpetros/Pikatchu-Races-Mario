@@ -1,0 +1,44 @@
+body{
+    background: url('../Images/pokeballs.jpg') repeat-x;
+}
+/*Race*/
+#track {
+    background: url('../Images/road.gif') center left repeat-x;
+    height: 330px;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+/*Characters Position*/
+#Pikatchu { top: 50px; }
+#Mario { top: 160px; }
+#infoaboutrace {
+    width: 80%;
+    margin: 40px auto 0;
+    background: #333;
+    height: 200px;
+}
+.runners{
+    display: block;
+    position: relative;
+}
+/*Buttons*/
+input[type="button"] {
+    background: #3d2fb7;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+#buttons{
+ background-color: white;
+ border-radius: 0cm;
+    text-align-last: center;
+border-style: dashed ;
+}
+#resetRace{
+    background: rgb(51, 133, 255);
+    color: #444;
+}
+#startRace {
+    background: rgb(255, 51, 51);
+    color: rgb(255, 255, 255);
+}
