@@ -23,7 +23,7 @@ $(function() {
             left: howmuchtheyneedtoworkout
         }, mushrooms, function() {
             if(!someonewon)
-            {eckIfComplete('Mario');
+            {checkIfComplete('Mario');
             someonewon=true;}
             else alert('Mario Lost');
         });
